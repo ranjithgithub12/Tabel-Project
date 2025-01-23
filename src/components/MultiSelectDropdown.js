@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 
 const MultiSelectDropdown = ({ selectedValues, onChange }) => {
+    // State for dropdown options and new option input
   const [options, setOptions] = useState(["Option 1", "Option 2", "Option 3", "Option 4"]);
   const [newOption, setNewOption] = useState("");
 
+// Function to add a new option to the dropdown
   const handleAddOption = () => {
     if (newOption.trim() && !options.includes(newOption)) {
       setOptions((prevOptions) => [...prevOptions, newOption]);
@@ -18,6 +20,7 @@ const MultiSelectDropdown = ({ selectedValues, onChange }) => {
     onChange(updatedValues);
   };
 
+// Function to remove a selected value
   const handleRemoveSelected = (value) => {
     const updatedValues = selectedValues.filter((v) => v !== value);
     onChange(updatedValues);

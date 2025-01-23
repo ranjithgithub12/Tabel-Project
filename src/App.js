@@ -3,18 +3,22 @@ import React, { useState } from "react";
 import SingleSelectDropdown from "./components/SingleSelectDropdown";
 
 import MultiSelectDropdown from "./components/MultiSelectDropdown";
+
 import "./styles.css";
 
 const App = () => {
+  // State to manage rows in the table
   const [rows, setRows] = useState([{ id: 1, singleSelect: "", multiSelect: [] }]);
-
+  
+  // Function to add a new row to the table
   const handleAddRow = () => {
     setRows((prevRows) => [
       ...prevRows,
       { id: prevRows.length + 1, singleSelect: "", multiSelect: [] },
     ]);
   };
-
+  
+  // Function to handle changes in the single-select dropdown
   const handleSingleSelectChange = (id, value) => {
     setRows((prevRows) =>
       prevRows.map((row) =>
@@ -23,6 +27,7 @@ const App = () => {
     );
   };
 
+  // Function to handle changes in the multi-select dropdown
   const handleMultiSelectChange = (id, values) => {
     setRows((prevRows) =>
       prevRows.map((row) =>
@@ -37,7 +42,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Dynamic Table</h1>
+      
       <table>
         <thead>
           <tr>

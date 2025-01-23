@@ -41,8 +41,7 @@ const App = () => {
   };
 
   return (
-    <div className="container">
-      
+    <div className="container">  
       <table>
         <thead>
           <tr>

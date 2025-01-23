@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# React Dynamic Table Assignment
+
+This project is a React application that creates a dynamic table with single-select and multi-select dropdowns.
+
+## Features
+- Single-select dropdown with unique selection per row.
+- Multi-select dropdown with an option to add new items dynamically.
+- Add new rows to the table dynamically.
+
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   cd your-repository-name

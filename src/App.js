@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import SingleSelectDropdown from "./SingleSelectDropdown";
-import MultiSelectDropdown from "./MultiSelectDropdown";
+
+import SingleSelectDropdown from "./components/SingleSelectDropdown";
+
+import MultiSelectDropdown from "./components/MultiSelectDropdown";
 import "./styles.css";
 
 const App = () => {

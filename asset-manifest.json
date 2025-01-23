@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tabel-Project/static/css/main.75ce9644.css",
+    "main.js": "/Tabel-Project/static/js/main.84b9a9e1.js",
+    "static/js/453.e5b00392.chunk.js": "/Tabel-Project/static/js/453.e5b00392.chunk.js",
+    "index.html": "/Tabel-Project/index.html",
+    "main.75ce9644.css.map": "/Tabel-Project/static/css/main.75ce9644.css.map",
+    "main.84b9a9e1.js.map": "/Tabel-Project/static/js/main.84b9a9e1.js.map",
+    "453.e5b00392.chunk.js.map": "/Tabel-Project/static/js/453.e5b00392.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75ce9644.css",
+    "static/js/main.84b9a9e1.js"
+  ]
+}
